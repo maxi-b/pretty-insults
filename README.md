@@ -7,4 +7,4 @@
 * learned some terminal commands
 
 # week-2
-* 
+* created react function
