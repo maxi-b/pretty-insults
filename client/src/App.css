@@ -9,7 +9,10 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-      animation: App-logo-spin 2s infinite linear;
+    position: absolute;
+    left: 0;
+    -o-animation: all 1s ease-in-out;
+    animation: wanker 2s infinite;
   }
 }
 
@@ -39,10 +42,10 @@
 
 @keyframes wanker {
   0% {
-    left: 0;
+    left: 50;
   }
   50% {
-    left: 50vmin;
+    left: 1440px;
   }
   100% {
     left: 0;
