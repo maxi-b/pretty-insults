@@ -5,3 +5,6 @@
 * installed homebrew
 * installed node
 * learned some terminal commands
+
+# week-2
+* 
