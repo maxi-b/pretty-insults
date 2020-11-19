@@ -45,9 +45,9 @@
     left: 50;
   }
   50% {
-    left: 1440px;
+    left: 1080px;
   }
   100% {
-    left: 0;
+    left: 0; 
   }
 }

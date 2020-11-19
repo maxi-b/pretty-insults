@@ -1,11 +1,19 @@
 import React from 'react';
+import axios from 'axios';
 
 class Welcome extends React.Component {
+    state={
+        insult: '',
+    };
+    async fetchInsult() {
+        const insult = await axios.get('http://localhost:5000/insults');
+        this.setState ({insult: insult.data});
+    }
     componentDidMount() {
-        return <h1>After mounting</h1>
+        this.fetchInsult();    
     }
     render() {
-      return <h1>Hello you dick heads</h1>;
+      return <h1>{this.state.insult}</h1>;
     }
   }
   export default Welcome;

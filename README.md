@@ -8,3 +8,8 @@
 
 # week-2
 * created react function
+
+# week-3
+* installed axios and cors
+* created random insults array
+* fetched insults from BE
