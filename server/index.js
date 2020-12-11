@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/insults', (req, res) => {
-  items = ['Hello, you dick head','WANKER','Fuck you, buddy!','Piss off!','Get fucked','Go fuck yourself','Look what the cat dragged in'];
+  items = ['Hello, you dick head','WANKER','Fuck you, buddy!','Piss off!','Go fuck yourself','Look what the cat dragged in','You piece of shit'];
   var item = items[Math.floor(Math.random() * items.length)];  
   res.send(item)
   })
